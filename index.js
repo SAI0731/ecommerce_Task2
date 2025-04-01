@@ -77,7 +77,7 @@ app.listen(port, () => {
 
 mongoose
   .connect(
-    "mongodb+srv://sairaj:Sairaj07@p5ecommerce.cv4jsqj.mongodb.net/"
+    "mongodb+srv://{replace username}:{replace password}@p5ecommerce.cv4jsqj.mongodb.net/"
   )
   .then(() => {
     console.log("Connected to MongoDB Successfully");
